@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Clock from './components/app.jsx';
 
 ReactDOM.render(
-  <h1>Hello, world!</h1>,
+  <Clock />,
   document.getElementById('app')
 );
