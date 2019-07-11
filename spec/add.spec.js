@@ -1,4 +1,4 @@
-const sum = require('gallery/client/src/add.js');
+const sum = require('../client/src/add.js');
 
 test('adds 1 + 2 to equal 3', () => {
   expect(sum(1,2)).toBe(3);
